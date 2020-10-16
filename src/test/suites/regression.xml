@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="RegressionCucumberBDD" verbose="1">
+    <test name="RegressionCucumberBDD">
+        <classes>
+            <class name="tests.SimplifyLoginTestsRunner"/>
+            <class name="tests.UnsplashHomeTestRunner"/>
+        </classes>
+    </test>
+</suite>
